@@ -17,10 +17,43 @@ nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   position: fixed;
+  width: 27.1%;
+  background-color: #000000;
+}
+
+.container {
+  margin: 0 auto;
   width: 420px;
 }
 
 .restaurant-list {
-  padding-top: 50px;
-  width: 75%;
+   padding-top: 45px;
+   display: inline-block;
+ }
+
+.location {
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #999999;
+  padding: 20px;
+}
+
+.location:hover {
+  background-color: #ffffff;
+}
+
+.location .content {
+  width: 90%;
+  display: inline-block;
+}
+
+.location .content h3 {
+  font-size: 0.9rem;
+}
+
+.location .arrow {
+  float: right; margin-top: 10px;
+}
+
+.location h1 {
+  font-size: 1.1rem; font-weight: 800; line-height: 1.5;
 }
